@@ -41,7 +41,7 @@ This Apps Script:
 ### 1) Copy code into your Google Doc
 1. Open your target **Google Doc**.
 2. Go to **Extensions → Apps Script**.
-3. In `Code.gs`, paste the script from `src/Code.gs` (or your copy).
+3. In `Code.gs`, paste the script from `Code.gs` (or your copy).
 4. Save.
 
 ### 2) Enable the Advanced Google Docs API
@@ -129,7 +129,7 @@ No data is stored by the script; HTTP calls are made only to the link targets an
 
 ## 📦 Files
 
-- `src/Code.gs` — main Apps Script file (menu, scanning, table building, QR generator, merges/styles).
+- `Code.gs` — main Apps Script file (menu, scanning, table building, QR generator, merges/styles).
 - `README.md` — this file.
 
 > You don’t need a `manifest.json`; Apps Script manages it for simple projects. The Advanced Service toggle stores the dependency.
